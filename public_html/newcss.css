@@ -1,0 +1,105 @@
+
+.logo{
+    width: 306.06px;
+   height: 106px;
+    margin: -28px;
+   border: 0;
+   
+}
+.lienzo{
+    background-color: #FFF;
+padding-bottom: 164px;
+padding-top:  20px;
+}
+.entradacontra{
+    background-color: #dadada;
+padding-bottom: 4px;
+padding-top: 4px;
+border-radius: 6px;
+height: 27px;
+width: 356px;
+    line-height: 16px;
+        border: 0.5px solid #dddfe2;
+        margin-top: 4px;
+        margin-bottom: 4px;
+       padding-left: 10px;
+        color: #616060;
+}
+.envio{
+       background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+width: 370px;
+height: 48px;
+    line-height: 16px;
+        border: 0.5px solid #dddfe2;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-weight: bold;
+    justify-content: center;
+   color: #FFF;
+}
+.linea{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    width: 370px;
+}
+.otracuenta{
+          background-color: #42B72A;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+width: 189.8px;
+height: 48px;
+    line-height: 16px;
+        border: 0.5px solid #dddfe2;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-weight: bold;
+    justify-content: center;
+   color: #FFF;
+}
+.lenguajes{
+    color: #616060;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px;
+}
+.lista{
+       justify-content: center;
+        align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    list-style: none;
+}
+
+.botonmas{
+    cursor: pointer;
+    display: inline-block;
+        transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+        border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    height: 18px;
+    line-height: 18px;
+        background-color: #f5f6f7;
+    border-color: #ccd0d5;
+}
